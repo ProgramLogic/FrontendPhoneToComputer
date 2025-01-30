@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #2774e7;
+  border: black;
+  border = solid;
+  position: center;
+}
+
+.btn {
+  background-color:black;
+  color: whitesmoke;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:rgb(73, 71, 71);
+}
+
+.box1 {
+  font-size: 18px;
+  padding: 12px;
+  height: 30px;
+  width: 30%;
+  border-color: black;
+  border: solid;
+}
+
+.box1[as="textarea"] {
+  height: 120px;
+}
+
+.group {
+  margin: 20px 0px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top {
+}
+
+.App {
+  text-align: center;
+}
+
+.app-image {
+  width: 500px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  background-image: url("/computer.jpg");
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image within the div */
+  margin: 0 auto; /* Center the div horizontally */
+}
+
+
