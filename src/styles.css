@@ -3,11 +3,69 @@
   text-align: center;
   background-color: #2774e7;
   border: black;
-  border = solid;
-  position: center;
+  border : solid;
+ 
+  height: 800px;
 }
 
 .btn {
+  background-color:black;
+  color: whitesmoke;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  margin-top: 12px;
+  cursor: pointer;
+  align-items: right;
+  justify-content: right;
+  margin-left: 20px;
+}
+
+.btn:hover {
+  background-color:rgb(73, 71, 71);
+}
+
+.box1 {
+  font-size: 18px;
+  padding: 12px;
+  height: 15px;
+  width: 30%;
+  border-color: black;
+  border: solid;
+  align-items: right;
+  justify-content: right;
+}
+
+
+.box2[as="textarea"] {
+  height: 120px;
+}
+
+.group {
+  margin: 20px 0px 0px 20px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+}
+
+
+
+.App {
+  text-align: left;
+}
+
+.app-image {
+  width: 540px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  background-image: url("../public/computer.jpg");
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: left; /* Center the image within the div */
+  margin: 0 auto; /* Center the div horizontally */
+  margin-left: 20px;
+}
+
+.btn2 {
   background-color:black;
   color: whitesmoke;
   border-radius: 4px;
@@ -19,43 +77,16 @@
 
 .btn:hover {
   background-color:rgb(73, 71, 71);
+  
 }
 
-.box1 {
+.box2 {
   font-size: 18px;
   padding: 12px;
-  height: 30px;
+  height: 70px;
   width: 30%;
   border-color: black;
   border: solid;
+  align-items: right;
+  justify-content: right;
 }
-
-.box1[as="textarea"] {
-  height: 120px;
-}
-
-.group {
-  margin: 20px 0px 0px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.top {
-}
-
-.App {
-  text-align: center;
-}
-
-.app-image {
-  width: 500px; /* Set your desired width */
-  height: 300px; /* Set your desired height */
-  background-image: url("/computer.jpg");
-  background-size: cover; /* Ensure the image covers the entire div */
-  background-position: center; /* Center the image within the div */
-  margin: 0 auto; /* Center the div horizontally */
-}
-
-

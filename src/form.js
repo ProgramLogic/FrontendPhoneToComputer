@@ -47,7 +47,7 @@ function TextForm() {
 
           <Form.Control
             as="textarea"
-            className="box1"
+            className="box2"
             placeholder="Type your message"
             value={message}
             onChange={(e) => handleMessageChange(e)}
@@ -56,9 +56,15 @@ function TextForm() {
         <Button className="btn" variant="primary" type="submit">
           Send Message
         </Button>
+        <div>
+          </div>
+          <div>
+            </div>
+        <Button className="btn2"> Returned Message 
+        </Button>
       </Form>
     </div>
   );
 }
 
-export default TextForm;
+export default TextForm; 
